@@ -14,7 +14,7 @@ const CardChat = () => {
     const [firstMessage, setFirstMessage] = useState([]);
 
     const getData = () => {
-        const data = [
+        const dataFake = [
             {
                 'message': 'Hola Bienbenid@ al asistente virtual de la promoción 11 salvadoreños a catar',
                 'hour': `${18}:${0}${0}`,
@@ -26,7 +26,7 @@ const CardChat = () => {
                 'terms_and_conditions': true
             },
         ]
-        setFirstMessage(data);
+        setFirstMessage(dataFake);
     };
 
     const sendMessage = () => {
